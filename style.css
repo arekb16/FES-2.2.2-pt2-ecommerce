@@ -96,10 +96,6 @@ img {
     display: none;
 }
 
-.menu--open .menu__backdrop {
-    display: flex;
-}
-
 .menu__links {
     display: flex;
     flex-direction: column;
@@ -387,10 +383,4 @@ footer {
 
 .footer__link {
     padding: 0 8px;
-}
-
-@media (max-width: 550px) {
-    .nav__links {
-        display: none;
-    }
 }
